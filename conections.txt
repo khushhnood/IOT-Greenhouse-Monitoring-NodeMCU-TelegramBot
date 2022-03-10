@@ -1,0 +1,12 @@
+CONNECTIONS
+
+1. Connect PIN 3V3 of ESP8266 to PIN VCC of DH11.
+2. Connect PIN GND of ESP8266 to PIN GND of DH11.
+3. Connect PIN D4 of ESP8266 to PIN DATA of DH11.
+4. Connect PIN GND of ESP8266 to PIN GND of YL-69.
+5. Connect PIN D2 of ESP8266 to VCC of YL-69.
+6. Connect PIN A0 of ESP8266 to A0 of YL-69.
+7. Connect PIN D1 of ESP8266 to IN1 of RELAY.
+8. Connect PIN 3V3 of ESP8266 to VCC of RELAY.
+9. Connect PIN GND of ESP8266 to GND of RELAY.
+10. Connect PIN A0 of ESP8266 to LDR.
