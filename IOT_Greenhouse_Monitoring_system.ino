@@ -27,9 +27,9 @@ int  botScanInterval = 1;               // interval time between scan messages (
 long botLastScan;                       // last time messages' scan has been done
 
 long nowMillis;
-char auth[] = "6vrE-TPVYGQFfGOTWsCHPuIymRm2QtMg";
+char auth[] = "your auth token";
 WiFiClientSecure net_ssl;
-// WiFi connection
+// WiFi connectionpu
 const char* ssid     = "OnePlus 7T";      // wifi name
 const char* pass = "qwertyui";      // wifi password
 //dht
@@ -38,8 +38,8 @@ const char* pass = "qwertyui";      // wifi password
 
 
 // Telegram bot
-#define botMyChatID "461276769"          // reference to my phone's chat
-#define botToken "1168081048:AAEHUOH9lJ2tX_y4v3sZGJXlTyolnnuEgnM"
+#define botMyChatID "your chat id"          // reference to my phone's chat
+#define botToken "bot token recieved form bot father"
 #define botName "Iot_greenhouse"
 #define botUsername "Greenhouse_Monitor_Bot"
 TelegramBOT bot(botToken, botName, botUsername);
